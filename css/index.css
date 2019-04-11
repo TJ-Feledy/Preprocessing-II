@@ -250,3 +250,17 @@ nav .nav-bar a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .btn {
+  height: 40px;
+  width: 83%;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #17A2B8;
+  color: #FFFFFF;
+}
+.home .content-pick .btn:hover {
+  background: #ff93a5;
+}

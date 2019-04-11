@@ -1,1 +1,16 @@
 // Mixins in here
+.btn-style(@btn-color: @button-bg; @font-color: @white; @hover-color: rgb(255, 147, 165)) {
+    height: 40px;
+    width: 83%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: @btn-color;
+    color: @font-color;
+    &:hover {
+        background: @hover-color;
+    }
+
+}
