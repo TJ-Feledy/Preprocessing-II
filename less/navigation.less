@@ -4,16 +4,37 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: dashed 3px @silver;
-    padding: 20px 0;
+    border-bottom: dashed 2px @silver;
+    padding: 50px 0;
+    h1 {
+        margin-left: 100px;
+    }
     .nav-bar {
         display: flex;
         justify-content: space-evenly;
         width: 45%;
+        margin-right: 100px;
+        padding-left: 100px;
         a {
             color: @shark;
             text-decoration: none;
             font-size: 1.6rem;
+        }
+    }
+    @media @mobile {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        padding: 10px 0;
+        .nav-bar{
+            width: 100%;
+            margin-right: 0px;
+            padding-left: 0;        
+        }
+        h1 {
+            margin: 0 auto;
+            padding: 15px;
         }
     }
 }
