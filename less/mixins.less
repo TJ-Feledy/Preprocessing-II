@@ -12,5 +12,18 @@
     &:hover {
         background: @hover-color;
     }
+    .full-width-mobile;
 
+}
+
+.flex-column() {
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+}
+
+.full-width-mobile() {
+    @media @mobile {
+        width: 100%;
+    }
 }
